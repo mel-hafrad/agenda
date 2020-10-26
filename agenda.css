@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Roboto:wght@500&display=swap');
+html{
+    height: 100%;
+}
+body{
+    background-color: #f6f5f5;
+    min-height: 100%;
+    margin:0px;
+    padding: 0px;
+    font-family: 'Oxygen Mono', monospace;
+    position: relative;
+    background: rgba(210,210,210,1);   
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12 rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo{
+    /* font */
+    color: #000000;
+    font-size: 22px;
+    
+
+}
+
+.logo:hover{
+    border-color: rgb(226, 116, 116);
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.active{
+    font-weight: bold;
+    color: #2d2a2a;
+
+}
+
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Changa', sans-serif;
+    font-weight: bold;
+    color: #6d6d6d;
+}
+
+/* TABLE------------- */
+th{
+    text-align: center;
+    font-size: 25px;
+}
+.content-table{
+    border-collapse: separate;
+    border-spacing: 2px 3px;
+    margin: 25px 0;
+    margin-left: 65px;
+    margin-right: 40px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.content-table thead tr{
+    background-color:  #009879;
+    color: #ffffff;
+    font-weight: bold;
+     text-align: left;
+}   
+
+.content-table th,
+.content-table td{
+    padding: 20px 20px;
+}
+
+
+.content-table tbody tr:nth-of-type(even){
+    border-bottom: 1px solid #dddddd; 
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid  #009879;
+}
+
+
+.content-table tbody tr.active-row{
+    font-weight: bold;
+    color: #ee2a1c;
+}
+
+
+/* FORMULAIRE----------------------- */
+
+
+
+.block1{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center ;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: linear-gradient(90deg, rgba(240,240,240,1) 54%, rgba(210,210,210,1) 62%);
+    height: 300px;
+    padding-top: 4%;
+    padding-bottom: 0px;
+    position: bottom;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+footer p{
+    font-family: 'Crimson Text', serif;
+}
+
+footer p:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+
+}
+
+footer p:nth-child(2){
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+

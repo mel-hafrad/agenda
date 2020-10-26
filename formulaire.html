@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+        <head>
+            <meta charset="utf-8">
+            <title>Formulaire</title>
+            <link rel="stylesheet" type="text/css" href="agenda.css">
+            
+        </head>
+        <!-- BODY -->
+        <body>
+            
+            <!-- naviguation -->
+            <nav>
+                <!-- logo -->
+                <a href="agenda.html" class="Logo">Formulaire</a>
+            <!-- menu -->
+            <ul>
+                <li><a href="agenda.html" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/" target="blank">Contact Me</a></li>
+            </ul>
+            </nav>
+        <!-- h1 -->
+        <a href="agenda.html"><h1><u> Formulaire du Jour</u></h1></a>
+
+
+
+
+        <!-- FORM -->
+            <div class="block1">
+                <form action="page.php">
+                    <legend><u><b>Humeur du jour:</b></u></legend>
+                    <label for="MF"></label>
+                    <select name="enform" id="MF">
+                        <option value="choice">Please choose an option</option>
+                        <option value="En Forme">En Forme</option>
+                        <option value="Fatigué">Fatigué</option>
+                     </select><br><br>
+
+                     <legend><u><b>Regime de la semaine:</b></u></legend>
+                     <label for="Rg"></label>
+                     <select name="regime" id="Rg">
+                        <option value="choice">Please choose an option</option>
+                        <option value="regm1">Régime 1</option>
+                        <option value="rgm2">Régime 2</option>
+                        <option value="rgm3">Régime 3</option>
+                        <option value="rgm4">Régime 4</option>
+                        </select><br><br>
+
+                    <label for="phone"><b>Enregistré numéro traiteur du jour:</b></label><br>
+                    <input type=phone  id="phone" name="phone" placeholder="06 01 02 03 04" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <small>Format:(06-00-00-00-00)</small><br><br>
+                        
+                    <legend><u><b>groupe musculaire a travaillé:</b></u></legend>
+                    <label for="grpmsc"></label>
+                    <select name="grpmiscu" id="grpmsc">
+                        <option value="">--Please choose an option--</option>
+                        <option value="Trapèze">Trapèze</option>
+                        <option value="Avant-bras+1">Avant-bras</option>
+                        <option value="Bras+2">Bras</option>
+                        <option value="Jambes+3">Jambes</option>
+                        <option value="Molets+4">Molets</option>
+                        <option value="Dorsaux+5">Dorsaux</option>
+                        <option value="Abdos">Abdos</option>
+                    </select><br><br>
+
+
+                    <label for="Presentation"> <b>Notes personelles:</b></label><br>
+
+                    <textarea id="Presentation" name="Presentation" rows="4" cols="50">
+                    </textarea><br><br>
+                    <input type="submit" value="Submit" target="_blank">
+        </form>
+    </div>
+ <!-- footer------------ -->
+            
+                <footer>
+                    
+                    <p>Mel Hafrad</p>
+                    <p>Hope you like my work</p>
+                    <p>Contact me on :</p>
+
+                <!-- reseaux -->
+                <div class="icons">
+                   <a href="https://www.facebook.com/"> <img src="facebook.png" alt="facebook"></a>
+
+                   <a href="https://discord.com/"> <img src="discord.png" alt="discord"></a>
+
+                   <a href="https://twitter.com/?lang=en"> <img src="twitter.png" alt="twitter"></a>
+                </div>
+            </footer>
+            
+<!-- END BODY -->
+    </body>
+</html>
